@@ -132,4 +132,4 @@ web-voting-system/
 
 ## 📄 License
 
-MIT © 林昱宏
+MIT © Linyh1985
