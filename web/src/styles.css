@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #app { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f5f7fa; color: #303133; }
+a { text-decoration: none; color: inherit; }
+.page-container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.text-center { text-align: center; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.flex { display: flex; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.gap-12 { gap: 12px; }
+.cover-img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; background: #f0f2f5; }
+.vote-card { cursor: pointer; transition: transform .2s, box-shadow .2s; }
+.vote-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+.hot-badge { position: absolute; top: 10px; right: 10px; z-index: 2; }
+/* 响应式 */
+@media (max-width: 768px) {
+  .page-container { padding: 10px; }
+  .el-col { margin-bottom: 12px; }
+}
+/* 验证码图片 */
+.captcha-img { cursor: pointer; border: 1px solid #dcdfe6; border-radius: 4px; vertical-align: middle; height: 40px; }

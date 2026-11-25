@@ -1,0 +1,24 @@
+{
+  "name": "vote-system-server",
+  "version": "1.0.0",
+  "description": "Web 投票系统后端：Koa2 + JWT + 防作弊链 + 统计导出",
+  "author": "林昱宏",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "exceljs": "^4.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-helmet": "^7.0.0",
+    "koa-router": "^13.1.0",
+    "koa-static": "^5.0.0",
+    "sql.js": "^1.14.2"
+  }
+}
